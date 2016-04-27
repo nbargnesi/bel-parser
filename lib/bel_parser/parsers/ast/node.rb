@@ -820,8 +820,12 @@ module BELParser
         end
 
         # Get what is being unset.
+        #
+        # @return [String, nil] what is being unset
         def name
-          # TODO: access children for content
+          return nil unless children?
+          return nil unless first_child.children?
+          first_child.first_child
         end
       end
 
@@ -984,6 +988,10 @@ module BELParser
 
         def pattern(*children, **props)
           Pattern.new(children, props)
+        end
+
+        def unset(*children, **props)
+          Unset.new(children, props)
         end
       end
     end
