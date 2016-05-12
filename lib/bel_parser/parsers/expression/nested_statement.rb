@@ -1541,48 +1541,48 @@ class << self
 	private :_bel_trans_actions, :_bel_trans_actions=
 end
 self._bel_trans_actions = [
-	1, 0, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 13, 14, 14, 14, 0, 
-	0, 9, 9, 0, 0, 15, 16, 15, 
-	15, 4, 17, 0, 18, 0, 19, 20, 
-	21, 0, 22, 0, 23, 0, 0, 24, 
-	25, 26, 0, 7, 0, 0, 0, 9, 
-	29, 9, 0, 30, 0, 9, 9, 0, 
-	0, 0, 0, 0, 0, 7, 7, 9, 
-	10, 9, 0, 11, 0, 31, 9, 9, 
-	0, 0, 32, 0, 0, 17, 33, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 34, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 35, 15, 4, 17, 36, 
-	0, 37, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 14, 14, 14, 0, 0, 
-	9, 9, 0, 0, 15, 16, 15, 15, 
-	4, 17, 0, 38, 0, 19, 39, 21, 
-	40, 0, 0, 24, 25, 41, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	42, 0, 19, 43, 21, 0, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	44, 45, 44, 0, 46, 0, 0, 24, 
-	25, 47, 0, 0, 48, 2, 3, 4, 
-	0, 5, 0, 0, 0, 0, 6, 7, 
-	9, 10, 9, 0, 11, 0, 14, 14, 
-	14, 0, 0, 9, 9, 0, 0, 15, 
-	16, 15, 15, 4, 17, 0, 18, 0, 
-	19, 20, 21, 0, 22, 37, 49, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 50, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 51, 15, 4, 17, 52, 
-	0, 0, 54, 0
+	2, 0, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 14, 15, 15, 15, 0, 
+	0, 10, 10, 0, 0, 17, 18, 17, 
+	17, 5, 19, 0, 20, 0, 21, 22, 
+	23, 0, 24, 0, 25, 0, 0, 26, 
+	27, 28, 0, 8, 0, 0, 0, 10, 
+	31, 10, 0, 32, 0, 10, 10, 0, 
+	0, 0, 0, 0, 0, 8, 8, 10, 
+	11, 10, 0, 12, 0, 33, 10, 10, 
+	0, 0, 34, 0, 0, 19, 35, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 36, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 37, 17, 5, 19, 38, 
+	0, 39, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 15, 15, 15, 0, 0, 
+	10, 10, 0, 0, 17, 18, 17, 17, 
+	5, 19, 0, 40, 0, 21, 41, 23, 
+	42, 0, 0, 26, 27, 43, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	44, 0, 21, 45, 23, 0, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	46, 47, 46, 0, 48, 0, 0, 26, 
+	27, 49, 0, 0, 50, 3, 4, 5, 
+	0, 6, 0, 0, 0, 0, 7, 8, 
+	10, 11, 10, 0, 12, 0, 15, 15, 
+	15, 0, 0, 10, 10, 0, 0, 17, 
+	18, 17, 17, 5, 19, 0, 20, 0, 
+	21, 22, 23, 0, 24, 39, 51, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 52, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 53, 17, 5, 19, 54, 
+	0, 0, 56, 0
 ]
 
 class << self
@@ -1590,30 +1590,30 @@ class << self
 	private :_bel_eof_actions, :_bel_eof_actions=
 end
 self._bel_eof_actions = [
-	0, 0, 0, 0, 0, 0, 0, 8, 
-	8, 12, 0, 0, 8, 8, 8, 12, 
-	12, 12, 0, 0, 0, 0, 0, 0, 
-	0, 0, 8, 12, 0, 27, 28, 28, 
-	28, 28, 28, 28, 0, 0, 0, 8, 
-	8, 0, 8, 8, 8, 8, 0, 0, 
-	0, 0, 0, 0, 0, 0, 8, 8, 
-	12, 0, 0, 8, 8, 8, 12, 12, 
-	8, 12, 0, 0, 0, 0, 0, 0, 
-	8, 8, 12, 0, 0, 8, 8, 8, 
-	12, 12, 12, 8, 12, 0, 0, 0, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 12, 0, 0, 0, 0, 
-	0, 0, 0, 0, 8, 8, 12, 0, 
-	0, 8, 8, 8, 12, 12, 12, 0, 
-	0, 0, 0, 8, 12, 8, 12, 0, 
-	0, 0, 0, 0, 0, 8, 8, 12, 
-	0, 0, 8, 8, 8, 12, 12, 12, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 8, 12, 8, 12, 0, 
-	53, 55, 0, 0, 56, 56, 0, 0, 
-	0, 0, 56
+	0, 1, 1, 0, 1, 1, 0, 9, 
+	9, 13, 0, 1, 9, 9, 9, 16, 
+	13, 13, 0, 0, 0, 0, 0, 0, 
+	0, 0, 9, 16, 0, 29, 30, 30, 
+	30, 30, 30, 30, 1, 1, 0, 9, 
+	9, 0, 9, 9, 9, 9, 1, 1, 
+	1, 1, 0, 1, 1, 0, 9, 9, 
+	13, 0, 1, 9, 9, 9, 16, 13, 
+	9, 16, 1, 1, 0, 1, 1, 0, 
+	9, 9, 13, 0, 1, 9, 9, 9, 
+	16, 13, 13, 9, 16, 0, 0, 0, 
+	0, 0, 0, 1, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 13, 0, 0, 1, 1, 
+	0, 1, 1, 0, 9, 9, 13, 0, 
+	1, 9, 9, 9, 16, 13, 13, 0, 
+	0, 0, 0, 9, 16, 9, 16, 1, 
+	1, 0, 1, 1, 0, 9, 9, 13, 
+	0, 1, 9, 9, 9, 16, 13, 13, 
+	0, 0, 1, 0, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 9, 16, 9, 16, 0, 
+	55, 57, 0, 0, 58, 58, 0, 0, 
+	0, 0, 58
 ]
 
 class << self
@@ -1714,13 +1714,14 @@ begin
 	cs = _bel_trans_targs[_trans]
 	if _bel_trans_actions[_trans] != 0
 	case _bel_trans_actions[_trans]
-	when 7 then
+	when 8 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
-	when 54 then
+	when 56 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -1730,25 +1731,25 @@ begin
     ast_node = identifier(utf8_string(chars), complete: completed)
     @buffers[:ident] = ast_node
   		end
-	when 9 then
+	when 10 then
 		begin
 
     $stderr.puts 'STRING start_string'
     @string_opened = true
     p_start = p
   		end
-	when 4 then
+	when 5 then
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 5 then
+	when 6 then
 		begin
 
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 36 then
+	when 38 then
 		begin
 
     inner_term = @buffers[:term_stack].pop
@@ -1761,12 +1762,12 @@ begin
 	end
 
   		end
-	when 38 then
+	when 40 then
 		begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 13 then
+	when 14 then
 		begin
 
     # $ all states; error_term
@@ -1781,42 +1782,42 @@ begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 21 then
+	when 23 then
 		begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 43 then
+	when 45 then
 		begin
 
     @buffers[:relationship] = relationship(
                                 utf8_string(@buffers[:relationship]))
   		end
-	when 25 then
+	when 27 then
 		begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 40 then
+	when 42 then
 		begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 42 then
+	when 44 then
 		begin
 
     @buffers[:subject]    = subject(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 44 then
+	when 46 then
 		begin
 
     @buffers[:object]     = object(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 46 then
+	when 48 then
 		begin
 
     @buffers[:comment] ||= comment(nil)
@@ -1827,7 +1828,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 22 then
+	when 24 then
 		begin
 
     	begin
@@ -1839,7 +1840,7 @@ begin
 	end
 
   		end
-	when 49 then
+	when 51 then
 		begin
 
     inner_statement = @buffers[:statement_stack].pop
@@ -1853,12 +1854,12 @@ begin
 	end
 
   		end
-	when 23 then
+	when 25 then
 		begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 17 then
+	when 19 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -1872,7 +1873,7 @@ begin
 
     @buffers[:parameter] = parameter(prefix(@buffers[:ident]))
   		end
-	when 2 then
+	when 3 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -1887,7 +1888,7 @@ begin
     fx = @incomplete.delete(:function)
     @buffers[:function] = identifier(utf8_string(fx))
   		end
-	when 16 then
+	when 18 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -1909,7 +1910,7 @@ begin
 	end
 
   		end
-	when 11 then
+	when 12 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -1924,7 +1925,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 31 then
+	when 33 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -1934,7 +1935,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 14 then
+	when 15 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -1948,7 +1949,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 19 then
+	when 21 then
 		begin
 
     @buffers[:relationship] = []
@@ -1957,7 +1958,7 @@ begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 39 then
+	when 41 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -1967,7 +1968,7 @@ begin
 
     yield @buffers[:relationship]
   		end
-	when 20 then
+	when 22 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -1977,7 +1978,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:relationship]
   		end
-	when 24 then
+	when 26 then
 		begin
 
     @buffers[:comment] = []
@@ -1986,7 +1987,7 @@ begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 41 then
+	when 43 then
 		begin
 
     @buffers[:comment] = comment(
@@ -1996,7 +1997,7 @@ begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 47 then
+	when 49 then
 		begin
 
     @buffers[:comment] = comment(
@@ -2012,7 +2013,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 26 then
+	when 28 then
 		begin
 
     @buffers[:comment] = comment(
@@ -2022,7 +2023,7 @@ begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 18 then
+	when 20 then
 		begin
 
     @buffers[:subject]    = subject(
@@ -2033,7 +2034,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:subject]
   		end
-	when 45 then
+	when 47 then
 		begin
 
     @buffers[:object]     = object(
@@ -2050,10 +2051,11 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 6 then
+	when 7 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
@@ -2064,7 +2066,7 @@ begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 32 then
+	when 34 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -2083,7 +2085,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 15 then
+	when 17 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -2106,7 +2108,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 3 then
+	when 4 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -2126,7 +2128,7 @@ begin
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 10 then
+	when 11 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -2147,7 +2149,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 30 then
+	when 32 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -2167,7 +2169,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 34 then
+	when 36 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -2193,7 +2195,7 @@ begin
 	end
 
   		end
-	when 52 then
+	when 54 then
 		begin
 
     @buffers[:object]     = object(
@@ -2217,7 +2219,7 @@ begin
 	end
 
   		end
-	when 35 then
+	when 37 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -2252,7 +2254,7 @@ begin
 	end
 
   		end
-	when 29 then
+	when 31 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -2278,7 +2280,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 37 then
+	when 39 then
 		begin
 
     t = term(complete: false)
@@ -2291,13 +2293,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 33 then
+	when 35 then
 		begin
 
     t = term(complete: false)
@@ -2310,13 +2313,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 50 then
+	when 52 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -2353,7 +2357,7 @@ begin
 	end
 
   		end
-	when 1 then
+	when 2 then
 		begin
 
     @buffers[:statement_stack] = [ statement() ]
@@ -2370,13 +2374,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 48 then
+	when 50 then
 		begin
 
     @buffers[:statement_stack] << statement()
@@ -2393,13 +2398,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 51 then
+	when 53 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -2462,13 +2468,25 @@ begin
 	if _goto_level <= _test_eof
 	if p == eof
 	  case _bel_eof_actions[cs]
-	when 55 then
+	when 57 then
 		begin
 
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 8 then
+	when 1 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
+	when 9 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -2477,17 +2495,17 @@ begin
     ast_node = string(utf8_string(chars), complete: false)
     @buffers[:string] = ast_node
   		end
-	when 27 then
+	when 29 then
 		begin
 
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 56 then
+	when 58 then
 		begin
 
   		end
-	when 53 then
+	when 55 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -2502,7 +2520,7 @@ begin
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 28 then
+	when 30 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -2516,7 +2534,36 @@ begin
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 12 then
+	when 13 then
+		begin
+
+    # $ all states; error_term
+
+    unless @incomplete.empty?
+      fx = @incomplete.delete(:function)
+      fx = identifier(utf8_string(fx))
+      # add a child function to the last term (creates a new term)
+      t = @buffers[:term_stack][-1] << function(fx)
+      @buffers[:term_stack][-1] = t
+    end
+
+    yield @buffers[:term_stack][-1]
+  		end
+		begin
+
+  		end
+	when 16 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
 		begin
 
     # $ all states; error_term
@@ -4083,48 +4130,48 @@ class << self
 	private :_bel_trans_actions, :_bel_trans_actions=
 end
 self._bel_trans_actions = [
-	1, 0, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 13, 14, 14, 14, 0, 
-	0, 9, 9, 0, 0, 15, 16, 15, 
-	15, 4, 17, 0, 18, 0, 19, 20, 
-	21, 0, 22, 0, 23, 0, 0, 24, 
-	25, 26, 0, 7, 0, 0, 0, 9, 
-	29, 9, 0, 30, 0, 9, 9, 0, 
-	0, 0, 0, 0, 0, 7, 7, 9, 
-	10, 9, 0, 11, 0, 31, 9, 9, 
-	0, 0, 32, 0, 0, 17, 33, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 34, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 35, 15, 4, 17, 36, 
-	0, 37, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 14, 14, 14, 0, 0, 
-	9, 9, 0, 0, 15, 16, 15, 15, 
-	4, 17, 0, 38, 0, 19, 39, 21, 
-	40, 0, 0, 24, 25, 41, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	42, 0, 19, 43, 21, 0, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	44, 45, 44, 0, 46, 0, 0, 24, 
-	25, 47, 0, 0, 48, 2, 3, 4, 
-	0, 5, 0, 0, 0, 0, 6, 7, 
-	9, 10, 9, 0, 11, 0, 14, 14, 
-	14, 0, 0, 9, 9, 0, 0, 15, 
-	16, 15, 15, 4, 17, 0, 18, 0, 
-	19, 20, 21, 0, 22, 37, 49, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 50, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 51, 15, 4, 17, 52, 
-	0, 0, 54, 0
+	2, 0, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 14, 15, 15, 15, 0, 
+	0, 10, 10, 0, 0, 17, 18, 17, 
+	17, 5, 19, 0, 20, 0, 21, 22, 
+	23, 0, 24, 0, 25, 0, 0, 26, 
+	27, 28, 0, 8, 0, 0, 0, 10, 
+	31, 10, 0, 32, 0, 10, 10, 0, 
+	0, 0, 0, 0, 0, 8, 8, 10, 
+	11, 10, 0, 12, 0, 33, 10, 10, 
+	0, 0, 34, 0, 0, 19, 35, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 36, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 37, 17, 5, 19, 38, 
+	0, 39, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 15, 15, 15, 0, 0, 
+	10, 10, 0, 0, 17, 18, 17, 17, 
+	5, 19, 0, 40, 0, 21, 41, 23, 
+	42, 0, 0, 26, 27, 43, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	44, 0, 21, 45, 23, 0, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	46, 47, 46, 0, 48, 0, 0, 26, 
+	27, 49, 0, 0, 50, 3, 4, 5, 
+	0, 6, 0, 0, 0, 0, 7, 8, 
+	10, 11, 10, 0, 12, 0, 15, 15, 
+	15, 0, 0, 10, 10, 0, 0, 17, 
+	18, 17, 17, 5, 19, 0, 20, 0, 
+	21, 22, 23, 0, 24, 39, 51, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 52, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 53, 17, 5, 19, 54, 
+	0, 0, 56, 0
 ]
 
 class << self
@@ -4132,30 +4179,30 @@ class << self
 	private :_bel_eof_actions, :_bel_eof_actions=
 end
 self._bel_eof_actions = [
-	0, 0, 0, 0, 0, 0, 0, 8, 
-	8, 12, 0, 0, 8, 8, 8, 12, 
-	12, 12, 0, 0, 0, 0, 0, 0, 
-	0, 0, 8, 12, 0, 27, 28, 28, 
-	28, 28, 28, 28, 0, 0, 0, 8, 
-	8, 0, 8, 8, 8, 8, 0, 0, 
-	0, 0, 0, 0, 0, 0, 8, 8, 
-	12, 0, 0, 8, 8, 8, 12, 12, 
-	8, 12, 0, 0, 0, 0, 0, 0, 
-	8, 8, 12, 0, 0, 8, 8, 8, 
-	12, 12, 12, 8, 12, 0, 0, 0, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 12, 0, 0, 0, 0, 
-	0, 0, 0, 0, 8, 8, 12, 0, 
-	0, 8, 8, 8, 12, 12, 12, 0, 
-	0, 0, 0, 8, 12, 8, 12, 0, 
-	0, 0, 0, 0, 0, 8, 8, 12, 
-	0, 0, 8, 8, 8, 12, 12, 12, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 8, 12, 8, 12, 0, 
-	53, 55, 0, 0, 56, 56, 0, 0, 
-	0, 0, 56
+	0, 1, 1, 0, 1, 1, 0, 9, 
+	9, 13, 0, 1, 9, 9, 9, 16, 
+	13, 13, 0, 0, 0, 0, 0, 0, 
+	0, 0, 9, 16, 0, 29, 30, 30, 
+	30, 30, 30, 30, 1, 1, 0, 9, 
+	9, 0, 9, 9, 9, 9, 1, 1, 
+	1, 1, 0, 1, 1, 0, 9, 9, 
+	13, 0, 1, 9, 9, 9, 16, 13, 
+	9, 16, 1, 1, 0, 1, 1, 0, 
+	9, 9, 13, 0, 1, 9, 9, 9, 
+	16, 13, 13, 9, 16, 0, 0, 0, 
+	0, 0, 0, 1, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 13, 0, 0, 1, 1, 
+	0, 1, 1, 0, 9, 9, 13, 0, 
+	1, 9, 9, 9, 16, 13, 13, 0, 
+	0, 0, 0, 9, 16, 9, 16, 1, 
+	1, 0, 1, 1, 0, 9, 9, 13, 
+	0, 1, 9, 9, 9, 16, 13, 13, 
+	0, 0, 1, 0, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 9, 16, 9, 16, 0, 
+	55, 57, 0, 0, 58, 58, 0, 0, 
+	0, 0, 58
 ]
 
 class << self
@@ -4256,13 +4303,14 @@ begin
 	cs = _bel_trans_targs[_trans]
 	if _bel_trans_actions[_trans] != 0
 	case _bel_trans_actions[_trans]
-	when 7 then
+	when 8 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
-	when 54 then
+	when 56 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -4272,25 +4320,25 @@ begin
     ast_node = identifier(utf8_string(chars), complete: completed)
     @buffers[:ident] = ast_node
   		end
-	when 9 then
+	when 10 then
 		begin
 
     $stderr.puts 'STRING start_string'
     @string_opened = true
     p_start = p
   		end
-	when 4 then
+	when 5 then
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 5 then
+	when 6 then
 		begin
 
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 36 then
+	when 38 then
 		begin
 
     inner_term = @buffers[:term_stack].pop
@@ -4303,12 +4351,12 @@ begin
 	end
 
   		end
-	when 38 then
+	when 40 then
 		begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 13 then
+	when 14 then
 		begin
 
     # $ all states; error_term
@@ -4323,42 +4371,42 @@ begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 21 then
+	when 23 then
 		begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 43 then
+	when 45 then
 		begin
 
     @buffers[:relationship] = relationship(
                                 utf8_string(@buffers[:relationship]))
   		end
-	when 25 then
+	when 27 then
 		begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 40 then
+	when 42 then
 		begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 42 then
+	when 44 then
 		begin
 
     @buffers[:subject]    = subject(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 44 then
+	when 46 then
 		begin
 
     @buffers[:object]     = object(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 46 then
+	when 48 then
 		begin
 
     @buffers[:comment] ||= comment(nil)
@@ -4369,7 +4417,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 22 then
+	when 24 then
 		begin
 
     	begin
@@ -4381,7 +4429,7 @@ begin
 	end
 
   		end
-	when 49 then
+	when 51 then
 		begin
 
     inner_statement = @buffers[:statement_stack].pop
@@ -4395,12 +4443,12 @@ begin
 	end
 
   		end
-	when 23 then
+	when 25 then
 		begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 17 then
+	when 19 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -4414,7 +4462,7 @@ begin
 
     @buffers[:parameter] = parameter(prefix(@buffers[:ident]))
   		end
-	when 2 then
+	when 3 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -4429,7 +4477,7 @@ begin
     fx = @incomplete.delete(:function)
     @buffers[:function] = identifier(utf8_string(fx))
   		end
-	when 16 then
+	when 18 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -4451,7 +4499,7 @@ begin
 	end
 
   		end
-	when 11 then
+	when 12 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -4466,7 +4514,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 31 then
+	when 33 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -4476,7 +4524,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 14 then
+	when 15 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -4490,7 +4538,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 19 then
+	when 21 then
 		begin
 
     @buffers[:relationship] = []
@@ -4499,7 +4547,7 @@ begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 39 then
+	when 41 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -4509,7 +4557,7 @@ begin
 
     yield @buffers[:relationship]
   		end
-	when 20 then
+	when 22 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -4519,7 +4567,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:relationship]
   		end
-	when 24 then
+	when 26 then
 		begin
 
     @buffers[:comment] = []
@@ -4528,7 +4576,7 @@ begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 41 then
+	when 43 then
 		begin
 
     @buffers[:comment] = comment(
@@ -4538,7 +4586,7 @@ begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 47 then
+	when 49 then
 		begin
 
     @buffers[:comment] = comment(
@@ -4554,7 +4602,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 26 then
+	when 28 then
 		begin
 
     @buffers[:comment] = comment(
@@ -4564,7 +4612,7 @@ begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 18 then
+	when 20 then
 		begin
 
     @buffers[:subject]    = subject(
@@ -4575,7 +4623,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:subject]
   		end
-	when 45 then
+	when 47 then
 		begin
 
     @buffers[:object]     = object(
@@ -4592,10 +4640,11 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 6 then
+	when 7 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
@@ -4606,7 +4655,7 @@ begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 32 then
+	when 34 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -4625,7 +4674,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 15 then
+	when 17 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -4648,7 +4697,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 3 then
+	when 4 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -4668,7 +4717,7 @@ begin
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 10 then
+	when 11 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -4689,7 +4738,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 30 then
+	when 32 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -4709,7 +4758,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 34 then
+	when 36 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -4735,7 +4784,7 @@ begin
 	end
 
   		end
-	when 52 then
+	when 54 then
 		begin
 
     @buffers[:object]     = object(
@@ -4759,7 +4808,7 @@ begin
 	end
 
   		end
-	when 35 then
+	when 37 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -4794,7 +4843,7 @@ begin
 	end
 
   		end
-	when 29 then
+	when 31 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -4820,7 +4869,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 37 then
+	when 39 then
 		begin
 
     t = term(complete: false)
@@ -4833,13 +4882,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 33 then
+	when 35 then
 		begin
 
     t = term(complete: false)
@@ -4852,13 +4902,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 50 then
+	when 52 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -4895,7 +4946,7 @@ begin
 	end
 
   		end
-	when 1 then
+	when 2 then
 		begin
 
     @buffers[:statement_stack] = [ statement() ]
@@ -4912,13 +4963,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 48 then
+	when 50 then
 		begin
 
     @buffers[:statement_stack] << statement()
@@ -4935,13 +4987,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 51 then
+	when 53 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -5004,13 +5057,25 @@ begin
 	if _goto_level <= _test_eof
 	if p == eof
 	  case _bel_eof_actions[cs]
-	when 55 then
+	when 57 then
 		begin
 
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 8 then
+	when 1 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
+	when 9 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -5019,17 +5084,17 @@ begin
     ast_node = string(utf8_string(chars), complete: false)
     @buffers[:string] = ast_node
   		end
-	when 27 then
+	when 29 then
 		begin
 
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 56 then
+	when 58 then
 		begin
 
   		end
-	when 53 then
+	when 55 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -5044,7 +5109,7 @@ begin
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 28 then
+	when 30 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -5058,7 +5123,36 @@ begin
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 12 then
+	when 13 then
+		begin
+
+    # $ all states; error_term
+
+    unless @incomplete.empty?
+      fx = @incomplete.delete(:function)
+      fx = identifier(utf8_string(fx))
+      # add a child function to the last term (creates a new term)
+      t = @buffers[:term_stack][-1] << function(fx)
+      @buffers[:term_stack][-1] = t
+    end
+
+    yield @buffers[:term_stack][-1]
+  		end
+		begin
+
+  		end
+	when 16 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
 		begin
 
     # $ all states; error_term
@@ -6625,48 +6719,48 @@ class << self
 	private :_bel_trans_actions, :_bel_trans_actions=
 end
 self._bel_trans_actions = [
-	1, 0, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 13, 14, 14, 14, 0, 
-	0, 9, 9, 0, 0, 15, 16, 15, 
-	15, 4, 17, 0, 18, 0, 19, 20, 
-	21, 0, 22, 0, 23, 0, 0, 24, 
-	25, 26, 0, 7, 0, 0, 0, 9, 
-	29, 9, 0, 30, 0, 9, 9, 0, 
-	0, 0, 0, 0, 0, 7, 7, 9, 
-	10, 9, 0, 11, 0, 31, 9, 9, 
-	0, 0, 32, 0, 0, 17, 33, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 34, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 35, 15, 4, 17, 36, 
-	0, 37, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 14, 14, 14, 0, 0, 
-	9, 9, 0, 0, 15, 16, 15, 15, 
-	4, 17, 0, 38, 0, 19, 39, 21, 
-	40, 0, 0, 24, 25, 41, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	42, 0, 19, 43, 21, 0, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	44, 45, 44, 0, 46, 0, 0, 24, 
-	25, 47, 0, 0, 48, 2, 3, 4, 
-	0, 5, 0, 0, 0, 0, 6, 7, 
-	9, 10, 9, 0, 11, 0, 14, 14, 
-	14, 0, 0, 9, 9, 0, 0, 15, 
-	16, 15, 15, 4, 17, 0, 18, 0, 
-	19, 20, 21, 0, 22, 37, 49, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 50, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 51, 15, 4, 17, 52, 
-	0, 0, 54, 0
+	2, 0, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 14, 15, 15, 15, 0, 
+	0, 10, 10, 0, 0, 17, 18, 17, 
+	17, 5, 19, 0, 20, 0, 21, 22, 
+	23, 0, 24, 0, 25, 0, 0, 26, 
+	27, 28, 0, 8, 0, 0, 0, 10, 
+	31, 10, 0, 32, 0, 10, 10, 0, 
+	0, 0, 0, 0, 0, 8, 8, 10, 
+	11, 10, 0, 12, 0, 33, 10, 10, 
+	0, 0, 34, 0, 0, 19, 35, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 36, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 37, 17, 5, 19, 38, 
+	0, 39, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 15, 15, 15, 0, 0, 
+	10, 10, 0, 0, 17, 18, 17, 17, 
+	5, 19, 0, 40, 0, 21, 41, 23, 
+	42, 0, 0, 26, 27, 43, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	44, 0, 21, 45, 23, 0, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	46, 47, 46, 0, 48, 0, 0, 26, 
+	27, 49, 0, 0, 50, 3, 4, 5, 
+	0, 6, 0, 0, 0, 0, 7, 8, 
+	10, 11, 10, 0, 12, 0, 15, 15, 
+	15, 0, 0, 10, 10, 0, 0, 17, 
+	18, 17, 17, 5, 19, 0, 20, 0, 
+	21, 22, 23, 0, 24, 39, 51, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 52, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 53, 17, 5, 19, 54, 
+	0, 0, 56, 0
 ]
 
 class << self
@@ -6674,30 +6768,30 @@ class << self
 	private :_bel_eof_actions, :_bel_eof_actions=
 end
 self._bel_eof_actions = [
-	0, 0, 0, 0, 0, 0, 0, 8, 
-	8, 12, 0, 0, 8, 8, 8, 12, 
-	12, 12, 0, 0, 0, 0, 0, 0, 
-	0, 0, 8, 12, 0, 27, 28, 28, 
-	28, 28, 28, 28, 0, 0, 0, 8, 
-	8, 0, 8, 8, 8, 8, 0, 0, 
-	0, 0, 0, 0, 0, 0, 8, 8, 
-	12, 0, 0, 8, 8, 8, 12, 12, 
-	8, 12, 0, 0, 0, 0, 0, 0, 
-	8, 8, 12, 0, 0, 8, 8, 8, 
-	12, 12, 12, 8, 12, 0, 0, 0, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 12, 0, 0, 0, 0, 
-	0, 0, 0, 0, 8, 8, 12, 0, 
-	0, 8, 8, 8, 12, 12, 12, 0, 
-	0, 0, 0, 8, 12, 8, 12, 0, 
-	0, 0, 0, 0, 0, 8, 8, 12, 
-	0, 0, 8, 8, 8, 12, 12, 12, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 8, 12, 8, 12, 0, 
-	53, 55, 0, 0, 56, 56, 0, 0, 
-	0, 0, 56
+	0, 1, 1, 0, 1, 1, 0, 9, 
+	9, 13, 0, 1, 9, 9, 9, 16, 
+	13, 13, 0, 0, 0, 0, 0, 0, 
+	0, 0, 9, 16, 0, 29, 30, 30, 
+	30, 30, 30, 30, 1, 1, 0, 9, 
+	9, 0, 9, 9, 9, 9, 1, 1, 
+	1, 1, 0, 1, 1, 0, 9, 9, 
+	13, 0, 1, 9, 9, 9, 16, 13, 
+	9, 16, 1, 1, 0, 1, 1, 0, 
+	9, 9, 13, 0, 1, 9, 9, 9, 
+	16, 13, 13, 9, 16, 0, 0, 0, 
+	0, 0, 0, 1, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 13, 0, 0, 1, 1, 
+	0, 1, 1, 0, 9, 9, 13, 0, 
+	1, 9, 9, 9, 16, 13, 13, 0, 
+	0, 0, 0, 9, 16, 9, 16, 1, 
+	1, 0, 1, 1, 0, 9, 9, 13, 
+	0, 1, 9, 9, 9, 16, 13, 13, 
+	0, 0, 1, 0, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 9, 16, 9, 16, 0, 
+	55, 57, 0, 0, 58, 58, 0, 0, 
+	0, 0, 58
 ]
 
 class << self
@@ -6798,13 +6892,14 @@ begin
 	cs = _bel_trans_targs[_trans]
 	if _bel_trans_actions[_trans] != 0
 	case _bel_trans_actions[_trans]
-	when 7 then
+	when 8 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
-	when 54 then
+	when 56 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -6814,25 +6909,25 @@ begin
     ast_node = identifier(utf8_string(chars), complete: completed)
     @buffers[:ident] = ast_node
   		end
-	when 9 then
+	when 10 then
 		begin
 
     $stderr.puts 'STRING start_string'
     @string_opened = true
     p_start = p
   		end
-	when 4 then
+	when 5 then
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 5 then
+	when 6 then
 		begin
 
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 36 then
+	when 38 then
 		begin
 
     inner_term = @buffers[:term_stack].pop
@@ -6845,12 +6940,12 @@ begin
 	end
 
   		end
-	when 38 then
+	when 40 then
 		begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 13 then
+	when 14 then
 		begin
 
     # $ all states; error_term
@@ -6865,42 +6960,42 @@ begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 21 then
+	when 23 then
 		begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 43 then
+	when 45 then
 		begin
 
     @buffers[:relationship] = relationship(
                                 utf8_string(@buffers[:relationship]))
   		end
-	when 25 then
+	when 27 then
 		begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 40 then
+	when 42 then
 		begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 42 then
+	when 44 then
 		begin
 
     @buffers[:subject]    = subject(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 44 then
+	when 46 then
 		begin
 
     @buffers[:object]     = object(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 46 then
+	when 48 then
 		begin
 
     @buffers[:comment] ||= comment(nil)
@@ -6911,7 +7006,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 22 then
+	when 24 then
 		begin
 
     	begin
@@ -6923,7 +7018,7 @@ begin
 	end
 
   		end
-	when 49 then
+	when 51 then
 		begin
 
     inner_statement = @buffers[:statement_stack].pop
@@ -6937,12 +7032,12 @@ begin
 	end
 
   		end
-	when 23 then
+	when 25 then
 		begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 17 then
+	when 19 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -6956,7 +7051,7 @@ begin
 
     @buffers[:parameter] = parameter(prefix(@buffers[:ident]))
   		end
-	when 2 then
+	when 3 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -6971,7 +7066,7 @@ begin
     fx = @incomplete.delete(:function)
     @buffers[:function] = identifier(utf8_string(fx))
   		end
-	when 16 then
+	when 18 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -6993,7 +7088,7 @@ begin
 	end
 
   		end
-	when 11 then
+	when 12 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -7008,7 +7103,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 31 then
+	when 33 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -7018,7 +7113,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 14 then
+	when 15 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -7032,7 +7127,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 19 then
+	when 21 then
 		begin
 
     @buffers[:relationship] = []
@@ -7041,7 +7136,7 @@ begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 39 then
+	when 41 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -7051,7 +7146,7 @@ begin
 
     yield @buffers[:relationship]
   		end
-	when 20 then
+	when 22 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -7061,7 +7156,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:relationship]
   		end
-	when 24 then
+	when 26 then
 		begin
 
     @buffers[:comment] = []
@@ -7070,7 +7165,7 @@ begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 41 then
+	when 43 then
 		begin
 
     @buffers[:comment] = comment(
@@ -7080,7 +7175,7 @@ begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 47 then
+	when 49 then
 		begin
 
     @buffers[:comment] = comment(
@@ -7096,7 +7191,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 26 then
+	when 28 then
 		begin
 
     @buffers[:comment] = comment(
@@ -7106,7 +7201,7 @@ begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 18 then
+	when 20 then
 		begin
 
     @buffers[:subject]    = subject(
@@ -7117,7 +7212,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:subject]
   		end
-	when 45 then
+	when 47 then
 		begin
 
     @buffers[:object]     = object(
@@ -7134,10 +7229,11 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 6 then
+	when 7 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
@@ -7148,7 +7244,7 @@ begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 32 then
+	when 34 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -7167,7 +7263,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 15 then
+	when 17 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -7190,7 +7286,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 3 then
+	when 4 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -7210,7 +7306,7 @@ begin
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 10 then
+	when 11 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -7231,7 +7327,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 30 then
+	when 32 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -7251,7 +7347,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 34 then
+	when 36 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -7277,7 +7373,7 @@ begin
 	end
 
   		end
-	when 52 then
+	when 54 then
 		begin
 
     @buffers[:object]     = object(
@@ -7301,7 +7397,7 @@ begin
 	end
 
   		end
-	when 35 then
+	when 37 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -7336,7 +7432,7 @@ begin
 	end
 
   		end
-	when 29 then
+	when 31 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -7362,7 +7458,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 37 then
+	when 39 then
 		begin
 
     t = term(complete: false)
@@ -7375,13 +7471,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 33 then
+	when 35 then
 		begin
 
     t = term(complete: false)
@@ -7394,13 +7491,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 50 then
+	when 52 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -7437,7 +7535,7 @@ begin
 	end
 
   		end
-	when 1 then
+	when 2 then
 		begin
 
     @buffers[:statement_stack] = [ statement() ]
@@ -7454,13 +7552,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 48 then
+	when 50 then
 		begin
 
     @buffers[:statement_stack] << statement()
@@ -7477,13 +7576,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 51 then
+	when 53 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -7546,13 +7646,25 @@ begin
 	if _goto_level <= _test_eof
 	if p == eof
 	  case _bel_eof_actions[cs]
-	when 55 then
+	when 57 then
 		begin
 
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 8 then
+	when 1 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
+	when 9 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -7561,17 +7673,17 @@ begin
     ast_node = string(utf8_string(chars), complete: false)
     @buffers[:string] = ast_node
   		end
-	when 27 then
+	when 29 then
 		begin
 
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 56 then
+	when 58 then
 		begin
 
   		end
-	when 53 then
+	when 55 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -7586,7 +7698,7 @@ begin
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 28 then
+	when 30 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -7600,7 +7712,36 @@ begin
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 12 then
+	when 13 then
+		begin
+
+    # $ all states; error_term
+
+    unless @incomplete.empty?
+      fx = @incomplete.delete(:function)
+      fx = identifier(utf8_string(fx))
+      # add a child function to the last term (creates a new term)
+      t = @buffers[:term_stack][-1] << function(fx)
+      @buffers[:term_stack][-1] = t
+    end
+
+    yield @buffers[:term_stack][-1]
+  		end
+		begin
+
+  		end
+	when 16 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
 		begin
 
     # $ all states; error_term
@@ -9167,48 +9308,48 @@ class << self
 	private :_bel_trans_actions, :_bel_trans_actions=
 end
 self._bel_trans_actions = [
-	1, 0, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 13, 14, 14, 14, 0, 
-	0, 9, 9, 0, 0, 15, 16, 15, 
-	15, 4, 17, 0, 18, 0, 19, 20, 
-	21, 0, 22, 0, 23, 0, 0, 24, 
-	25, 26, 0, 7, 0, 0, 0, 9, 
-	29, 9, 0, 30, 0, 9, 9, 0, 
-	0, 0, 0, 0, 0, 7, 7, 9, 
-	10, 9, 0, 11, 0, 31, 9, 9, 
-	0, 0, 32, 0, 0, 17, 33, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 34, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 35, 15, 4, 17, 36, 
-	0, 37, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 14, 14, 14, 0, 0, 
-	9, 9, 0, 0, 15, 16, 15, 15, 
-	4, 17, 0, 38, 0, 19, 39, 21, 
-	40, 0, 0, 24, 25, 41, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	42, 0, 19, 43, 21, 0, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	44, 45, 44, 0, 46, 0, 0, 24, 
-	25, 47, 0, 0, 48, 2, 3, 4, 
-	0, 5, 0, 0, 0, 0, 6, 7, 
-	9, 10, 9, 0, 11, 0, 14, 14, 
-	14, 0, 0, 9, 9, 0, 0, 15, 
-	16, 15, 15, 4, 17, 0, 18, 0, 
-	19, 20, 21, 0, 22, 37, 49, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 50, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 51, 15, 4, 17, 52, 
-	0, 0, 54, 0
+	2, 0, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 14, 15, 15, 15, 0, 
+	0, 10, 10, 0, 0, 17, 18, 17, 
+	17, 5, 19, 0, 20, 0, 21, 22, 
+	23, 0, 24, 0, 25, 0, 0, 26, 
+	27, 28, 0, 8, 0, 0, 0, 10, 
+	31, 10, 0, 32, 0, 10, 10, 0, 
+	0, 0, 0, 0, 0, 8, 8, 10, 
+	11, 10, 0, 12, 0, 33, 10, 10, 
+	0, 0, 34, 0, 0, 19, 35, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 36, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 37, 17, 5, 19, 38, 
+	0, 39, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 15, 15, 15, 0, 0, 
+	10, 10, 0, 0, 17, 18, 17, 17, 
+	5, 19, 0, 40, 0, 21, 41, 23, 
+	42, 0, 0, 26, 27, 43, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	44, 0, 21, 45, 23, 0, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	46, 47, 46, 0, 48, 0, 0, 26, 
+	27, 49, 0, 0, 50, 3, 4, 5, 
+	0, 6, 0, 0, 0, 0, 7, 8, 
+	10, 11, 10, 0, 12, 0, 15, 15, 
+	15, 0, 0, 10, 10, 0, 0, 17, 
+	18, 17, 17, 5, 19, 0, 20, 0, 
+	21, 22, 23, 0, 24, 39, 51, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 52, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 53, 17, 5, 19, 54, 
+	0, 0, 56, 0
 ]
 
 class << self
@@ -9216,30 +9357,30 @@ class << self
 	private :_bel_eof_actions, :_bel_eof_actions=
 end
 self._bel_eof_actions = [
-	0, 0, 0, 0, 0, 0, 0, 8, 
-	8, 12, 0, 0, 8, 8, 8, 12, 
-	12, 12, 0, 0, 0, 0, 0, 0, 
-	0, 0, 8, 12, 0, 27, 28, 28, 
-	28, 28, 28, 28, 0, 0, 0, 8, 
-	8, 0, 8, 8, 8, 8, 0, 0, 
-	0, 0, 0, 0, 0, 0, 8, 8, 
-	12, 0, 0, 8, 8, 8, 12, 12, 
-	8, 12, 0, 0, 0, 0, 0, 0, 
-	8, 8, 12, 0, 0, 8, 8, 8, 
-	12, 12, 12, 8, 12, 0, 0, 0, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 12, 0, 0, 0, 0, 
-	0, 0, 0, 0, 8, 8, 12, 0, 
-	0, 8, 8, 8, 12, 12, 12, 0, 
-	0, 0, 0, 8, 12, 8, 12, 0, 
-	0, 0, 0, 0, 0, 8, 8, 12, 
-	0, 0, 8, 8, 8, 12, 12, 12, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 8, 12, 8, 12, 0, 
-	53, 55, 0, 0, 56, 56, 0, 0, 
-	0, 0, 56
+	0, 1, 1, 0, 1, 1, 0, 9, 
+	9, 13, 0, 1, 9, 9, 9, 16, 
+	13, 13, 0, 0, 0, 0, 0, 0, 
+	0, 0, 9, 16, 0, 29, 30, 30, 
+	30, 30, 30, 30, 1, 1, 0, 9, 
+	9, 0, 9, 9, 9, 9, 1, 1, 
+	1, 1, 0, 1, 1, 0, 9, 9, 
+	13, 0, 1, 9, 9, 9, 16, 13, 
+	9, 16, 1, 1, 0, 1, 1, 0, 
+	9, 9, 13, 0, 1, 9, 9, 9, 
+	16, 13, 13, 9, 16, 0, 0, 0, 
+	0, 0, 0, 1, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 13, 0, 0, 1, 1, 
+	0, 1, 1, 0, 9, 9, 13, 0, 
+	1, 9, 9, 9, 16, 13, 13, 0, 
+	0, 0, 0, 9, 16, 9, 16, 1, 
+	1, 0, 1, 1, 0, 9, 9, 13, 
+	0, 1, 9, 9, 9, 16, 13, 13, 
+	0, 0, 1, 0, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 9, 16, 9, 16, 0, 
+	55, 57, 0, 0, 58, 58, 0, 0, 
+	0, 0, 58
 ]
 
 class << self
@@ -9340,13 +9481,14 @@ begin
 	cs = _bel_trans_targs[_trans]
 	if _bel_trans_actions[_trans] != 0
 	case _bel_trans_actions[_trans]
-	when 7 then
+	when 8 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
-	when 54 then
+	when 56 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -9356,25 +9498,25 @@ begin
     ast_node = identifier(utf8_string(chars), complete: completed)
     @buffers[:ident] = ast_node
   		end
-	when 9 then
+	when 10 then
 		begin
 
     $stderr.puts 'STRING start_string'
     @string_opened = true
     p_start = p
   		end
-	when 4 then
+	when 5 then
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 5 then
+	when 6 then
 		begin
 
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 36 then
+	when 38 then
 		begin
 
     inner_term = @buffers[:term_stack].pop
@@ -9387,12 +9529,12 @@ begin
 	end
 
   		end
-	when 38 then
+	when 40 then
 		begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 13 then
+	when 14 then
 		begin
 
     # $ all states; error_term
@@ -9407,42 +9549,42 @@ begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 21 then
+	when 23 then
 		begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 43 then
+	when 45 then
 		begin
 
     @buffers[:relationship] = relationship(
                                 utf8_string(@buffers[:relationship]))
   		end
-	when 25 then
+	when 27 then
 		begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 40 then
+	when 42 then
 		begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 42 then
+	when 44 then
 		begin
 
     @buffers[:subject]    = subject(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 44 then
+	when 46 then
 		begin
 
     @buffers[:object]     = object(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 46 then
+	when 48 then
 		begin
 
     @buffers[:comment] ||= comment(nil)
@@ -9453,7 +9595,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 22 then
+	when 24 then
 		begin
 
     	begin
@@ -9465,7 +9607,7 @@ begin
 	end
 
   		end
-	when 49 then
+	when 51 then
 		begin
 
     inner_statement = @buffers[:statement_stack].pop
@@ -9479,12 +9621,12 @@ begin
 	end
 
   		end
-	when 23 then
+	when 25 then
 		begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 17 then
+	when 19 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -9498,7 +9640,7 @@ begin
 
     @buffers[:parameter] = parameter(prefix(@buffers[:ident]))
   		end
-	when 2 then
+	when 3 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -9513,7 +9655,7 @@ begin
     fx = @incomplete.delete(:function)
     @buffers[:function] = identifier(utf8_string(fx))
   		end
-	when 16 then
+	when 18 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -9535,7 +9677,7 @@ begin
 	end
 
   		end
-	when 11 then
+	when 12 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -9550,7 +9692,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 31 then
+	when 33 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -9560,7 +9702,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 14 then
+	when 15 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -9574,7 +9716,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 19 then
+	when 21 then
 		begin
 
     @buffers[:relationship] = []
@@ -9583,7 +9725,7 @@ begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 39 then
+	when 41 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -9593,7 +9735,7 @@ begin
 
     yield @buffers[:relationship]
   		end
-	when 20 then
+	when 22 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -9603,7 +9745,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:relationship]
   		end
-	when 24 then
+	when 26 then
 		begin
 
     @buffers[:comment] = []
@@ -9612,7 +9754,7 @@ begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 41 then
+	when 43 then
 		begin
 
     @buffers[:comment] = comment(
@@ -9622,7 +9764,7 @@ begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 47 then
+	when 49 then
 		begin
 
     @buffers[:comment] = comment(
@@ -9638,7 +9780,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 26 then
+	when 28 then
 		begin
 
     @buffers[:comment] = comment(
@@ -9648,7 +9790,7 @@ begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 18 then
+	when 20 then
 		begin
 
     @buffers[:subject]    = subject(
@@ -9659,7 +9801,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:subject]
   		end
-	when 45 then
+	when 47 then
 		begin
 
     @buffers[:object]     = object(
@@ -9676,10 +9818,11 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 6 then
+	when 7 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
@@ -9690,7 +9833,7 @@ begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 32 then
+	when 34 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -9709,7 +9852,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 15 then
+	when 17 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -9732,7 +9875,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 3 then
+	when 4 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -9752,7 +9895,7 @@ begin
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 10 then
+	when 11 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -9773,7 +9916,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 30 then
+	when 32 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -9793,7 +9936,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 34 then
+	when 36 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -9819,7 +9962,7 @@ begin
 	end
 
   		end
-	when 52 then
+	when 54 then
 		begin
 
     @buffers[:object]     = object(
@@ -9843,7 +9986,7 @@ begin
 	end
 
   		end
-	when 35 then
+	when 37 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -9878,7 +10021,7 @@ begin
 	end
 
   		end
-	when 29 then
+	when 31 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -9904,7 +10047,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 37 then
+	when 39 then
 		begin
 
     t = term(complete: false)
@@ -9917,13 +10060,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 33 then
+	when 35 then
 		begin
 
     t = term(complete: false)
@@ -9936,13 +10080,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 50 then
+	when 52 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -9979,7 +10124,7 @@ begin
 	end
 
   		end
-	when 1 then
+	when 2 then
 		begin
 
     @buffers[:statement_stack] = [ statement() ]
@@ -9996,13 +10141,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 48 then
+	when 50 then
 		begin
 
     @buffers[:statement_stack] << statement()
@@ -10019,13 +10165,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 51 then
+	when 53 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -10088,13 +10235,25 @@ begin
 	if _goto_level <= _test_eof
 	if p == eof
 	  case _bel_eof_actions[cs]
-	when 55 then
+	when 57 then
 		begin
 
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 8 then
+	when 1 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
+	when 9 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -10103,17 +10262,17 @@ begin
     ast_node = string(utf8_string(chars), complete: false)
     @buffers[:string] = ast_node
   		end
-	when 27 then
+	when 29 then
 		begin
 
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 56 then
+	when 58 then
 		begin
 
   		end
-	when 53 then
+	when 55 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -10128,7 +10287,7 @@ begin
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 28 then
+	when 30 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -10142,7 +10301,36 @@ begin
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 12 then
+	when 13 then
+		begin
+
+    # $ all states; error_term
+
+    unless @incomplete.empty?
+      fx = @incomplete.delete(:function)
+      fx = identifier(utf8_string(fx))
+      # add a child function to the last term (creates a new term)
+      t = @buffers[:term_stack][-1] << function(fx)
+      @buffers[:term_stack][-1] = t
+    end
+
+    yield @buffers[:term_stack][-1]
+  		end
+		begin
+
+  		end
+	when 16 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
 		begin
 
     # $ all states; error_term
@@ -11709,48 +11897,48 @@ class << self
 	private :_bel_trans_actions, :_bel_trans_actions=
 end
 self._bel_trans_actions = [
-	1, 0, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 13, 14, 14, 14, 0, 
-	0, 9, 9, 0, 0, 15, 16, 15, 
-	15, 4, 17, 0, 18, 0, 19, 20, 
-	21, 0, 22, 0, 23, 0, 0, 24, 
-	25, 26, 0, 7, 0, 0, 0, 9, 
-	29, 9, 0, 30, 0, 9, 9, 0, 
-	0, 0, 0, 0, 0, 7, 7, 9, 
-	10, 9, 0, 11, 0, 31, 9, 9, 
-	0, 0, 32, 0, 0, 17, 33, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 34, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 35, 15, 4, 17, 36, 
-	0, 37, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 14, 14, 14, 0, 0, 
-	9, 9, 0, 0, 15, 16, 15, 15, 
-	4, 17, 0, 38, 0, 19, 39, 21, 
-	40, 0, 0, 24, 25, 41, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	42, 0, 19, 43, 21, 0, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	44, 45, 44, 0, 46, 0, 0, 24, 
-	25, 47, 0, 0, 48, 2, 3, 4, 
-	0, 5, 0, 0, 0, 0, 6, 7, 
-	9, 10, 9, 0, 11, 0, 14, 14, 
-	14, 0, 0, 9, 9, 0, 0, 15, 
-	16, 15, 15, 4, 17, 0, 18, 0, 
-	19, 20, 21, 0, 22, 37, 49, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 50, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 51, 15, 4, 17, 52, 
-	0, 0, 54, 0
+	2, 0, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 14, 15, 15, 15, 0, 
+	0, 10, 10, 0, 0, 17, 18, 17, 
+	17, 5, 19, 0, 20, 0, 21, 22, 
+	23, 0, 24, 0, 25, 0, 0, 26, 
+	27, 28, 0, 8, 0, 0, 0, 10, 
+	31, 10, 0, 32, 0, 10, 10, 0, 
+	0, 0, 0, 0, 0, 8, 8, 10, 
+	11, 10, 0, 12, 0, 33, 10, 10, 
+	0, 0, 34, 0, 0, 19, 35, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 36, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 37, 17, 5, 19, 38, 
+	0, 39, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 15, 15, 15, 0, 0, 
+	10, 10, 0, 0, 17, 18, 17, 17, 
+	5, 19, 0, 40, 0, 21, 41, 23, 
+	42, 0, 0, 26, 27, 43, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	44, 0, 21, 45, 23, 0, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	46, 47, 46, 0, 48, 0, 0, 26, 
+	27, 49, 0, 0, 50, 3, 4, 5, 
+	0, 6, 0, 0, 0, 0, 7, 8, 
+	10, 11, 10, 0, 12, 0, 15, 15, 
+	15, 0, 0, 10, 10, 0, 0, 17, 
+	18, 17, 17, 5, 19, 0, 20, 0, 
+	21, 22, 23, 0, 24, 39, 51, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 52, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 53, 17, 5, 19, 54, 
+	0, 0, 56, 0
 ]
 
 class << self
@@ -11758,30 +11946,30 @@ class << self
 	private :_bel_eof_actions, :_bel_eof_actions=
 end
 self._bel_eof_actions = [
-	0, 0, 0, 0, 0, 0, 0, 8, 
-	8, 12, 0, 0, 8, 8, 8, 12, 
-	12, 12, 0, 0, 0, 0, 0, 0, 
-	0, 0, 8, 12, 0, 27, 28, 28, 
-	28, 28, 28, 28, 0, 0, 0, 8, 
-	8, 0, 8, 8, 8, 8, 0, 0, 
-	0, 0, 0, 0, 0, 0, 8, 8, 
-	12, 0, 0, 8, 8, 8, 12, 12, 
-	8, 12, 0, 0, 0, 0, 0, 0, 
-	8, 8, 12, 0, 0, 8, 8, 8, 
-	12, 12, 12, 8, 12, 0, 0, 0, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 12, 0, 0, 0, 0, 
-	0, 0, 0, 0, 8, 8, 12, 0, 
-	0, 8, 8, 8, 12, 12, 12, 0, 
-	0, 0, 0, 8, 12, 8, 12, 0, 
-	0, 0, 0, 0, 0, 8, 8, 12, 
-	0, 0, 8, 8, 8, 12, 12, 12, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 8, 12, 8, 12, 0, 
-	53, 55, 0, 0, 56, 56, 0, 0, 
-	0, 0, 56
+	0, 1, 1, 0, 1, 1, 0, 9, 
+	9, 13, 0, 1, 9, 9, 9, 16, 
+	13, 13, 0, 0, 0, 0, 0, 0, 
+	0, 0, 9, 16, 0, 29, 30, 30, 
+	30, 30, 30, 30, 1, 1, 0, 9, 
+	9, 0, 9, 9, 9, 9, 1, 1, 
+	1, 1, 0, 1, 1, 0, 9, 9, 
+	13, 0, 1, 9, 9, 9, 16, 13, 
+	9, 16, 1, 1, 0, 1, 1, 0, 
+	9, 9, 13, 0, 1, 9, 9, 9, 
+	16, 13, 13, 9, 16, 0, 0, 0, 
+	0, 0, 0, 1, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 13, 0, 0, 1, 1, 
+	0, 1, 1, 0, 9, 9, 13, 0, 
+	1, 9, 9, 9, 16, 13, 13, 0, 
+	0, 0, 0, 9, 16, 9, 16, 1, 
+	1, 0, 1, 1, 0, 9, 9, 13, 
+	0, 1, 9, 9, 9, 16, 13, 13, 
+	0, 0, 1, 0, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 9, 16, 9, 16, 0, 
+	55, 57, 0, 0, 58, 58, 0, 0, 
+	0, 0, 58
 ]
 
 class << self
@@ -11882,13 +12070,14 @@ begin
 	cs = _bel_trans_targs[_trans]
 	if _bel_trans_actions[_trans] != 0
 	case _bel_trans_actions[_trans]
-	when 7 then
+	when 8 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
-	when 54 then
+	when 56 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -11898,25 +12087,25 @@ begin
     ast_node = identifier(utf8_string(chars), complete: completed)
     @buffers[:ident] = ast_node
   		end
-	when 9 then
+	when 10 then
 		begin
 
     $stderr.puts 'STRING start_string'
     @string_opened = true
     p_start = p
   		end
-	when 4 then
+	when 5 then
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 5 then
+	when 6 then
 		begin
 
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 36 then
+	when 38 then
 		begin
 
     inner_term = @buffers[:term_stack].pop
@@ -11929,12 +12118,12 @@ begin
 	end
 
   		end
-	when 38 then
+	when 40 then
 		begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 13 then
+	when 14 then
 		begin
 
     # $ all states; error_term
@@ -11949,42 +12138,42 @@ begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 21 then
+	when 23 then
 		begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 43 then
+	when 45 then
 		begin
 
     @buffers[:relationship] = relationship(
                                 utf8_string(@buffers[:relationship]))
   		end
-	when 25 then
+	when 27 then
 		begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 40 then
+	when 42 then
 		begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 42 then
+	when 44 then
 		begin
 
     @buffers[:subject]    = subject(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 44 then
+	when 46 then
 		begin
 
     @buffers[:object]     = object(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 46 then
+	when 48 then
 		begin
 
     @buffers[:comment] ||= comment(nil)
@@ -11995,7 +12184,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 22 then
+	when 24 then
 		begin
 
     	begin
@@ -12007,7 +12196,7 @@ begin
 	end
 
   		end
-	when 49 then
+	when 51 then
 		begin
 
     inner_statement = @buffers[:statement_stack].pop
@@ -12021,12 +12210,12 @@ begin
 	end
 
   		end
-	when 23 then
+	when 25 then
 		begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 17 then
+	when 19 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -12040,7 +12229,7 @@ begin
 
     @buffers[:parameter] = parameter(prefix(@buffers[:ident]))
   		end
-	when 2 then
+	when 3 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -12055,7 +12244,7 @@ begin
     fx = @incomplete.delete(:function)
     @buffers[:function] = identifier(utf8_string(fx))
   		end
-	when 16 then
+	when 18 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -12077,7 +12266,7 @@ begin
 	end
 
   		end
-	when 11 then
+	when 12 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -12092,7 +12281,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 31 then
+	when 33 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -12102,7 +12291,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 14 then
+	when 15 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -12116,7 +12305,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 19 then
+	when 21 then
 		begin
 
     @buffers[:relationship] = []
@@ -12125,7 +12314,7 @@ begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 39 then
+	when 41 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -12135,7 +12324,7 @@ begin
 
     yield @buffers[:relationship]
   		end
-	when 20 then
+	when 22 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -12145,7 +12334,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:relationship]
   		end
-	when 24 then
+	when 26 then
 		begin
 
     @buffers[:comment] = []
@@ -12154,7 +12343,7 @@ begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 41 then
+	when 43 then
 		begin
 
     @buffers[:comment] = comment(
@@ -12164,7 +12353,7 @@ begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 47 then
+	when 49 then
 		begin
 
     @buffers[:comment] = comment(
@@ -12180,7 +12369,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 26 then
+	when 28 then
 		begin
 
     @buffers[:comment] = comment(
@@ -12190,7 +12379,7 @@ begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 18 then
+	when 20 then
 		begin
 
     @buffers[:subject]    = subject(
@@ -12201,7 +12390,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:subject]
   		end
-	when 45 then
+	when 47 then
 		begin
 
     @buffers[:object]     = object(
@@ -12218,10 +12407,11 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 6 then
+	when 7 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
@@ -12232,7 +12422,7 @@ begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 32 then
+	when 34 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -12251,7 +12441,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 15 then
+	when 17 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -12274,7 +12464,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 3 then
+	when 4 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -12294,7 +12484,7 @@ begin
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 10 then
+	when 11 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -12315,7 +12505,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 30 then
+	when 32 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -12335,7 +12525,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 34 then
+	when 36 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -12361,7 +12551,7 @@ begin
 	end
 
   		end
-	when 52 then
+	when 54 then
 		begin
 
     @buffers[:object]     = object(
@@ -12385,7 +12575,7 @@ begin
 	end
 
   		end
-	when 35 then
+	when 37 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -12420,7 +12610,7 @@ begin
 	end
 
   		end
-	when 29 then
+	when 31 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -12446,7 +12636,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 37 then
+	when 39 then
 		begin
 
     t = term(complete: false)
@@ -12459,13 +12649,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 33 then
+	when 35 then
 		begin
 
     t = term(complete: false)
@@ -12478,13 +12669,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 50 then
+	when 52 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -12521,7 +12713,7 @@ begin
 	end
 
   		end
-	when 1 then
+	when 2 then
 		begin
 
     @buffers[:statement_stack] = [ statement() ]
@@ -12538,13 +12730,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 48 then
+	when 50 then
 		begin
 
     @buffers[:statement_stack] << statement()
@@ -12561,13 +12754,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 51 then
+	when 53 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -12630,13 +12824,25 @@ begin
 	if _goto_level <= _test_eof
 	if p == eof
 	  case _bel_eof_actions[cs]
-	when 55 then
+	when 57 then
 		begin
 
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 8 then
+	when 1 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
+	when 9 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -12645,17 +12851,17 @@ begin
     ast_node = string(utf8_string(chars), complete: false)
     @buffers[:string] = ast_node
   		end
-	when 27 then
+	when 29 then
 		begin
 
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 56 then
+	when 58 then
 		begin
 
   		end
-	when 53 then
+	when 55 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -12670,7 +12876,7 @@ begin
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 28 then
+	when 30 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -12684,7 +12890,36 @@ begin
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 12 then
+	when 13 then
+		begin
+
+    # $ all states; error_term
+
+    unless @incomplete.empty?
+      fx = @incomplete.delete(:function)
+      fx = identifier(utf8_string(fx))
+      # add a child function to the last term (creates a new term)
+      t = @buffers[:term_stack][-1] << function(fx)
+      @buffers[:term_stack][-1] = t
+    end
+
+    yield @buffers[:term_stack][-1]
+  		end
+		begin
+
+  		end
+	when 16 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
 		begin
 
     # $ all states; error_term
@@ -14251,48 +14486,48 @@ class << self
 	private :_bel_trans_actions, :_bel_trans_actions=
 end
 self._bel_trans_actions = [
-	1, 0, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 13, 14, 14, 14, 0, 
-	0, 9, 9, 0, 0, 15, 16, 15, 
-	15, 4, 17, 0, 18, 0, 19, 20, 
-	21, 0, 22, 0, 23, 0, 0, 24, 
-	25, 26, 0, 7, 0, 0, 0, 9, 
-	29, 9, 0, 30, 0, 9, 9, 0, 
-	0, 0, 0, 0, 0, 7, 7, 9, 
-	10, 9, 0, 11, 0, 31, 9, 9, 
-	0, 0, 32, 0, 0, 17, 33, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 34, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 35, 15, 4, 17, 36, 
-	0, 37, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 14, 14, 14, 0, 0, 
-	9, 9, 0, 0, 15, 16, 15, 15, 
-	4, 17, 0, 38, 0, 19, 39, 21, 
-	40, 0, 0, 24, 25, 41, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	42, 0, 19, 43, 21, 0, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	44, 45, 44, 0, 46, 0, 0, 24, 
-	25, 47, 0, 0, 48, 2, 3, 4, 
-	0, 5, 0, 0, 0, 0, 6, 7, 
-	9, 10, 9, 0, 11, 0, 14, 14, 
-	14, 0, 0, 9, 9, 0, 0, 15, 
-	16, 15, 15, 4, 17, 0, 18, 0, 
-	19, 20, 21, 0, 22, 37, 49, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 50, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 51, 15, 4, 17, 52, 
-	0, 0, 54, 0
+	2, 0, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 14, 15, 15, 15, 0, 
+	0, 10, 10, 0, 0, 17, 18, 17, 
+	17, 5, 19, 0, 20, 0, 21, 22, 
+	23, 0, 24, 0, 25, 0, 0, 26, 
+	27, 28, 0, 8, 0, 0, 0, 10, 
+	31, 10, 0, 32, 0, 10, 10, 0, 
+	0, 0, 0, 0, 0, 8, 8, 10, 
+	11, 10, 0, 12, 0, 33, 10, 10, 
+	0, 0, 34, 0, 0, 19, 35, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 36, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 37, 17, 5, 19, 38, 
+	0, 39, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 15, 15, 15, 0, 0, 
+	10, 10, 0, 0, 17, 18, 17, 17, 
+	5, 19, 0, 40, 0, 21, 41, 23, 
+	42, 0, 0, 26, 27, 43, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	44, 0, 21, 45, 23, 0, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	46, 47, 46, 0, 48, 0, 0, 26, 
+	27, 49, 0, 0, 50, 3, 4, 5, 
+	0, 6, 0, 0, 0, 0, 7, 8, 
+	10, 11, 10, 0, 12, 0, 15, 15, 
+	15, 0, 0, 10, 10, 0, 0, 17, 
+	18, 17, 17, 5, 19, 0, 20, 0, 
+	21, 22, 23, 0, 24, 39, 51, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 52, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 53, 17, 5, 19, 54, 
+	0, 0, 56, 0
 ]
 
 class << self
@@ -14300,30 +14535,30 @@ class << self
 	private :_bel_eof_actions, :_bel_eof_actions=
 end
 self._bel_eof_actions = [
-	0, 0, 0, 0, 0, 0, 0, 8, 
-	8, 12, 0, 0, 8, 8, 8, 12, 
-	12, 12, 0, 0, 0, 0, 0, 0, 
-	0, 0, 8, 12, 0, 27, 28, 28, 
-	28, 28, 28, 28, 0, 0, 0, 8, 
-	8, 0, 8, 8, 8, 8, 0, 0, 
-	0, 0, 0, 0, 0, 0, 8, 8, 
-	12, 0, 0, 8, 8, 8, 12, 12, 
-	8, 12, 0, 0, 0, 0, 0, 0, 
-	8, 8, 12, 0, 0, 8, 8, 8, 
-	12, 12, 12, 8, 12, 0, 0, 0, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 12, 0, 0, 0, 0, 
-	0, 0, 0, 0, 8, 8, 12, 0, 
-	0, 8, 8, 8, 12, 12, 12, 0, 
-	0, 0, 0, 8, 12, 8, 12, 0, 
-	0, 0, 0, 0, 0, 8, 8, 12, 
-	0, 0, 8, 8, 8, 12, 12, 12, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 8, 12, 8, 12, 0, 
-	53, 55, 0, 0, 56, 56, 0, 0, 
-	0, 0, 56
+	0, 1, 1, 0, 1, 1, 0, 9, 
+	9, 13, 0, 1, 9, 9, 9, 16, 
+	13, 13, 0, 0, 0, 0, 0, 0, 
+	0, 0, 9, 16, 0, 29, 30, 30, 
+	30, 30, 30, 30, 1, 1, 0, 9, 
+	9, 0, 9, 9, 9, 9, 1, 1, 
+	1, 1, 0, 1, 1, 0, 9, 9, 
+	13, 0, 1, 9, 9, 9, 16, 13, 
+	9, 16, 1, 1, 0, 1, 1, 0, 
+	9, 9, 13, 0, 1, 9, 9, 9, 
+	16, 13, 13, 9, 16, 0, 0, 0, 
+	0, 0, 0, 1, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 13, 0, 0, 1, 1, 
+	0, 1, 1, 0, 9, 9, 13, 0, 
+	1, 9, 9, 9, 16, 13, 13, 0, 
+	0, 0, 0, 9, 16, 9, 16, 1, 
+	1, 0, 1, 1, 0, 9, 9, 13, 
+	0, 1, 9, 9, 9, 16, 13, 13, 
+	0, 0, 1, 0, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 9, 16, 9, 16, 0, 
+	55, 57, 0, 0, 58, 58, 0, 0, 
+	0, 0, 58
 ]
 
 class << self
@@ -14424,13 +14659,14 @@ begin
 	cs = _bel_trans_targs[_trans]
 	if _bel_trans_actions[_trans] != 0
 	case _bel_trans_actions[_trans]
-	when 7 then
+	when 8 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
-	when 54 then
+	when 56 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -14440,25 +14676,25 @@ begin
     ast_node = identifier(utf8_string(chars), complete: completed)
     @buffers[:ident] = ast_node
   		end
-	when 9 then
+	when 10 then
 		begin
 
     $stderr.puts 'STRING start_string'
     @string_opened = true
     p_start = p
   		end
-	when 4 then
+	when 5 then
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 5 then
+	when 6 then
 		begin
 
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 36 then
+	when 38 then
 		begin
 
     inner_term = @buffers[:term_stack].pop
@@ -14471,12 +14707,12 @@ begin
 	end
 
   		end
-	when 38 then
+	when 40 then
 		begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 13 then
+	when 14 then
 		begin
 
     # $ all states; error_term
@@ -14491,42 +14727,42 @@ begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 21 then
+	when 23 then
 		begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 43 then
+	when 45 then
 		begin
 
     @buffers[:relationship] = relationship(
                                 utf8_string(@buffers[:relationship]))
   		end
-	when 25 then
+	when 27 then
 		begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 40 then
+	when 42 then
 		begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 42 then
+	when 44 then
 		begin
 
     @buffers[:subject]    = subject(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 44 then
+	when 46 then
 		begin
 
     @buffers[:object]     = object(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 46 then
+	when 48 then
 		begin
 
     @buffers[:comment] ||= comment(nil)
@@ -14537,7 +14773,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 22 then
+	when 24 then
 		begin
 
     	begin
@@ -14549,7 +14785,7 @@ begin
 	end
 
   		end
-	when 49 then
+	when 51 then
 		begin
 
     inner_statement = @buffers[:statement_stack].pop
@@ -14563,12 +14799,12 @@ begin
 	end
 
   		end
-	when 23 then
+	when 25 then
 		begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 17 then
+	when 19 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -14582,7 +14818,7 @@ begin
 
     @buffers[:parameter] = parameter(prefix(@buffers[:ident]))
   		end
-	when 2 then
+	when 3 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -14597,7 +14833,7 @@ begin
     fx = @incomplete.delete(:function)
     @buffers[:function] = identifier(utf8_string(fx))
   		end
-	when 16 then
+	when 18 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -14619,7 +14855,7 @@ begin
 	end
 
   		end
-	when 11 then
+	when 12 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -14634,7 +14870,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 31 then
+	when 33 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -14644,7 +14880,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 14 then
+	when 15 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -14658,7 +14894,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 19 then
+	when 21 then
 		begin
 
     @buffers[:relationship] = []
@@ -14667,7 +14903,7 @@ begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 39 then
+	when 41 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -14677,7 +14913,7 @@ begin
 
     yield @buffers[:relationship]
   		end
-	when 20 then
+	when 22 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -14687,7 +14923,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:relationship]
   		end
-	when 24 then
+	when 26 then
 		begin
 
     @buffers[:comment] = []
@@ -14696,7 +14932,7 @@ begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 41 then
+	when 43 then
 		begin
 
     @buffers[:comment] = comment(
@@ -14706,7 +14942,7 @@ begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 47 then
+	when 49 then
 		begin
 
     @buffers[:comment] = comment(
@@ -14722,7 +14958,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 26 then
+	when 28 then
 		begin
 
     @buffers[:comment] = comment(
@@ -14732,7 +14968,7 @@ begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 18 then
+	when 20 then
 		begin
 
     @buffers[:subject]    = subject(
@@ -14743,7 +14979,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:subject]
   		end
-	when 45 then
+	when 47 then
 		begin
 
     @buffers[:object]     = object(
@@ -14760,10 +14996,11 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 6 then
+	when 7 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
@@ -14774,7 +15011,7 @@ begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 32 then
+	when 34 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -14793,7 +15030,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 15 then
+	when 17 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -14816,7 +15053,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 3 then
+	when 4 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -14836,7 +15073,7 @@ begin
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 10 then
+	when 11 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -14857,7 +15094,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 30 then
+	when 32 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -14877,7 +15114,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 34 then
+	when 36 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -14903,7 +15140,7 @@ begin
 	end
 
   		end
-	when 52 then
+	when 54 then
 		begin
 
     @buffers[:object]     = object(
@@ -14927,7 +15164,7 @@ begin
 	end
 
   		end
-	when 35 then
+	when 37 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -14962,7 +15199,7 @@ begin
 	end
 
   		end
-	when 29 then
+	when 31 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -14988,7 +15225,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 37 then
+	when 39 then
 		begin
 
     t = term(complete: false)
@@ -15001,13 +15238,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 33 then
+	when 35 then
 		begin
 
     t = term(complete: false)
@@ -15020,13 +15258,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 50 then
+	when 52 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -15063,7 +15302,7 @@ begin
 	end
 
   		end
-	when 1 then
+	when 2 then
 		begin
 
     @buffers[:statement_stack] = [ statement() ]
@@ -15080,13 +15319,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 48 then
+	when 50 then
 		begin
 
     @buffers[:statement_stack] << statement()
@@ -15103,13 +15343,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 51 then
+	when 53 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -15172,13 +15413,25 @@ begin
 	if _goto_level <= _test_eof
 	if p == eof
 	  case _bel_eof_actions[cs]
-	when 55 then
+	when 57 then
 		begin
 
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 8 then
+	when 1 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
+	when 9 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -15187,17 +15440,17 @@ begin
     ast_node = string(utf8_string(chars), complete: false)
     @buffers[:string] = ast_node
   		end
-	when 27 then
+	when 29 then
 		begin
 
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 56 then
+	when 58 then
 		begin
 
   		end
-	when 53 then
+	when 55 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -15212,7 +15465,7 @@ begin
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 28 then
+	when 30 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -15226,7 +15479,36 @@ begin
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 12 then
+	when 13 then
+		begin
+
+    # $ all states; error_term
+
+    unless @incomplete.empty?
+      fx = @incomplete.delete(:function)
+      fx = identifier(utf8_string(fx))
+      # add a child function to the last term (creates a new term)
+      t = @buffers[:term_stack][-1] << function(fx)
+      @buffers[:term_stack][-1] = t
+    end
+
+    yield @buffers[:term_stack][-1]
+  		end
+		begin
+
+  		end
+	when 16 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
 		begin
 
     # $ all states; error_term
@@ -16793,48 +17075,48 @@ class << self
 	private :_bel_trans_actions, :_bel_trans_actions=
 end
 self._bel_trans_actions = [
-	1, 0, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 13, 14, 14, 14, 0, 
-	0, 9, 9, 0, 0, 15, 16, 15, 
-	15, 4, 17, 0, 18, 0, 19, 20, 
-	21, 0, 22, 0, 23, 0, 0, 24, 
-	25, 26, 0, 7, 0, 0, 0, 9, 
-	29, 9, 0, 30, 0, 9, 9, 0, 
-	0, 0, 0, 0, 0, 7, 7, 9, 
-	10, 9, 0, 11, 0, 31, 9, 9, 
-	0, 0, 32, 0, 0, 17, 33, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 34, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 35, 15, 4, 17, 36, 
-	0, 37, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 14, 14, 14, 0, 0, 
-	9, 9, 0, 0, 15, 16, 15, 15, 
-	4, 17, 0, 38, 0, 19, 39, 21, 
-	40, 0, 0, 24, 25, 41, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	42, 0, 19, 43, 21, 0, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	44, 45, 44, 0, 46, 0, 0, 24, 
-	25, 47, 0, 0, 48, 2, 3, 4, 
-	0, 5, 0, 0, 0, 0, 6, 7, 
-	9, 10, 9, 0, 11, 0, 14, 14, 
-	14, 0, 0, 9, 9, 0, 0, 15, 
-	16, 15, 15, 4, 17, 0, 18, 0, 
-	19, 20, 21, 0, 22, 37, 49, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 50, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 51, 15, 4, 17, 52, 
-	0, 0, 54, 0
+	2, 0, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 14, 15, 15, 15, 0, 
+	0, 10, 10, 0, 0, 17, 18, 17, 
+	17, 5, 19, 0, 20, 0, 21, 22, 
+	23, 0, 24, 0, 25, 0, 0, 26, 
+	27, 28, 0, 8, 0, 0, 0, 10, 
+	31, 10, 0, 32, 0, 10, 10, 0, 
+	0, 0, 0, 0, 0, 8, 8, 10, 
+	11, 10, 0, 12, 0, 33, 10, 10, 
+	0, 0, 34, 0, 0, 19, 35, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 36, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 37, 17, 5, 19, 38, 
+	0, 39, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 15, 15, 15, 0, 0, 
+	10, 10, 0, 0, 17, 18, 17, 17, 
+	5, 19, 0, 40, 0, 21, 41, 23, 
+	42, 0, 0, 26, 27, 43, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	44, 0, 21, 45, 23, 0, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	46, 47, 46, 0, 48, 0, 0, 26, 
+	27, 49, 0, 0, 50, 3, 4, 5, 
+	0, 6, 0, 0, 0, 0, 7, 8, 
+	10, 11, 10, 0, 12, 0, 15, 15, 
+	15, 0, 0, 10, 10, 0, 0, 17, 
+	18, 17, 17, 5, 19, 0, 20, 0, 
+	21, 22, 23, 0, 24, 39, 51, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 52, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 53, 17, 5, 19, 54, 
+	0, 0, 56, 0
 ]
 
 class << self
@@ -16842,30 +17124,30 @@ class << self
 	private :_bel_eof_actions, :_bel_eof_actions=
 end
 self._bel_eof_actions = [
-	0, 0, 0, 0, 0, 0, 0, 8, 
-	8, 12, 0, 0, 8, 8, 8, 12, 
-	12, 12, 0, 0, 0, 0, 0, 0, 
-	0, 0, 8, 12, 0, 27, 28, 28, 
-	28, 28, 28, 28, 0, 0, 0, 8, 
-	8, 0, 8, 8, 8, 8, 0, 0, 
-	0, 0, 0, 0, 0, 0, 8, 8, 
-	12, 0, 0, 8, 8, 8, 12, 12, 
-	8, 12, 0, 0, 0, 0, 0, 0, 
-	8, 8, 12, 0, 0, 8, 8, 8, 
-	12, 12, 12, 8, 12, 0, 0, 0, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 12, 0, 0, 0, 0, 
-	0, 0, 0, 0, 8, 8, 12, 0, 
-	0, 8, 8, 8, 12, 12, 12, 0, 
-	0, 0, 0, 8, 12, 8, 12, 0, 
-	0, 0, 0, 0, 0, 8, 8, 12, 
-	0, 0, 8, 8, 8, 12, 12, 12, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 8, 12, 8, 12, 0, 
-	53, 55, 0, 0, 56, 56, 0, 0, 
-	0, 0, 56
+	0, 1, 1, 0, 1, 1, 0, 9, 
+	9, 13, 0, 1, 9, 9, 9, 16, 
+	13, 13, 0, 0, 0, 0, 0, 0, 
+	0, 0, 9, 16, 0, 29, 30, 30, 
+	30, 30, 30, 30, 1, 1, 0, 9, 
+	9, 0, 9, 9, 9, 9, 1, 1, 
+	1, 1, 0, 1, 1, 0, 9, 9, 
+	13, 0, 1, 9, 9, 9, 16, 13, 
+	9, 16, 1, 1, 0, 1, 1, 0, 
+	9, 9, 13, 0, 1, 9, 9, 9, 
+	16, 13, 13, 9, 16, 0, 0, 0, 
+	0, 0, 0, 1, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 13, 0, 0, 1, 1, 
+	0, 1, 1, 0, 9, 9, 13, 0, 
+	1, 9, 9, 9, 16, 13, 13, 0, 
+	0, 0, 0, 9, 16, 9, 16, 1, 
+	1, 0, 1, 1, 0, 9, 9, 13, 
+	0, 1, 9, 9, 9, 16, 13, 13, 
+	0, 0, 1, 0, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 9, 16, 9, 16, 0, 
+	55, 57, 0, 0, 58, 58, 0, 0, 
+	0, 0, 58
 ]
 
 class << self
@@ -16966,13 +17248,14 @@ begin
 	cs = _bel_trans_targs[_trans]
 	if _bel_trans_actions[_trans] != 0
 	case _bel_trans_actions[_trans]
-	when 7 then
+	when 8 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
-	when 54 then
+	when 56 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -16982,25 +17265,25 @@ begin
     ast_node = identifier(utf8_string(chars), complete: completed)
     @buffers[:ident] = ast_node
   		end
-	when 9 then
+	when 10 then
 		begin
 
     $stderr.puts 'STRING start_string'
     @string_opened = true
     p_start = p
   		end
-	when 4 then
+	when 5 then
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 5 then
+	when 6 then
 		begin
 
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 36 then
+	when 38 then
 		begin
 
     inner_term = @buffers[:term_stack].pop
@@ -17013,12 +17296,12 @@ begin
 	end
 
   		end
-	when 38 then
+	when 40 then
 		begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 13 then
+	when 14 then
 		begin
 
     # $ all states; error_term
@@ -17033,42 +17316,42 @@ begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 21 then
+	when 23 then
 		begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 43 then
+	when 45 then
 		begin
 
     @buffers[:relationship] = relationship(
                                 utf8_string(@buffers[:relationship]))
   		end
-	when 25 then
+	when 27 then
 		begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 40 then
+	when 42 then
 		begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 42 then
+	when 44 then
 		begin
 
     @buffers[:subject]    = subject(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 44 then
+	when 46 then
 		begin
 
     @buffers[:object]     = object(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 46 then
+	when 48 then
 		begin
 
     @buffers[:comment] ||= comment(nil)
@@ -17079,7 +17362,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 22 then
+	when 24 then
 		begin
 
     	begin
@@ -17091,7 +17374,7 @@ begin
 	end
 
   		end
-	when 49 then
+	when 51 then
 		begin
 
     inner_statement = @buffers[:statement_stack].pop
@@ -17105,12 +17388,12 @@ begin
 	end
 
   		end
-	when 23 then
+	when 25 then
 		begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 17 then
+	when 19 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -17124,7 +17407,7 @@ begin
 
     @buffers[:parameter] = parameter(prefix(@buffers[:ident]))
   		end
-	when 2 then
+	when 3 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -17139,7 +17422,7 @@ begin
     fx = @incomplete.delete(:function)
     @buffers[:function] = identifier(utf8_string(fx))
   		end
-	when 16 then
+	when 18 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -17161,7 +17444,7 @@ begin
 	end
 
   		end
-	when 11 then
+	when 12 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -17176,7 +17459,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 31 then
+	when 33 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -17186,7 +17469,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 14 then
+	when 15 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -17200,7 +17483,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 19 then
+	when 21 then
 		begin
 
     @buffers[:relationship] = []
@@ -17209,7 +17492,7 @@ begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 39 then
+	when 41 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -17219,7 +17502,7 @@ begin
 
     yield @buffers[:relationship]
   		end
-	when 20 then
+	when 22 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -17229,7 +17512,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:relationship]
   		end
-	when 24 then
+	when 26 then
 		begin
 
     @buffers[:comment] = []
@@ -17238,7 +17521,7 @@ begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 41 then
+	when 43 then
 		begin
 
     @buffers[:comment] = comment(
@@ -17248,7 +17531,7 @@ begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 47 then
+	when 49 then
 		begin
 
     @buffers[:comment] = comment(
@@ -17264,7 +17547,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 26 then
+	when 28 then
 		begin
 
     @buffers[:comment] = comment(
@@ -17274,7 +17557,7 @@ begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 18 then
+	when 20 then
 		begin
 
     @buffers[:subject]    = subject(
@@ -17285,7 +17568,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:subject]
   		end
-	when 45 then
+	when 47 then
 		begin
 
     @buffers[:object]     = object(
@@ -17302,10 +17585,11 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 6 then
+	when 7 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
@@ -17316,7 +17600,7 @@ begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 32 then
+	when 34 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -17335,7 +17619,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 15 then
+	when 17 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -17358,7 +17642,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 3 then
+	when 4 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -17378,7 +17662,7 @@ begin
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 10 then
+	when 11 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -17399,7 +17683,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 30 then
+	when 32 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -17419,7 +17703,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 34 then
+	when 36 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -17445,7 +17729,7 @@ begin
 	end
 
   		end
-	when 52 then
+	when 54 then
 		begin
 
     @buffers[:object]     = object(
@@ -17469,7 +17753,7 @@ begin
 	end
 
   		end
-	when 35 then
+	when 37 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -17504,7 +17788,7 @@ begin
 	end
 
   		end
-	when 29 then
+	when 31 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -17530,7 +17814,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 37 then
+	when 39 then
 		begin
 
     t = term(complete: false)
@@ -17543,13 +17827,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 33 then
+	when 35 then
 		begin
 
     t = term(complete: false)
@@ -17562,13 +17847,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 50 then
+	when 52 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -17605,7 +17891,7 @@ begin
 	end
 
   		end
-	when 1 then
+	when 2 then
 		begin
 
     @buffers[:statement_stack] = [ statement() ]
@@ -17622,13 +17908,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 48 then
+	when 50 then
 		begin
 
     @buffers[:statement_stack] << statement()
@@ -17645,13 +17932,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 51 then
+	when 53 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -17714,13 +18002,25 @@ begin
 	if _goto_level <= _test_eof
 	if p == eof
 	  case _bel_eof_actions[cs]
-	when 55 then
+	when 57 then
 		begin
 
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 8 then
+	when 1 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
+	when 9 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -17729,17 +18029,17 @@ begin
     ast_node = string(utf8_string(chars), complete: false)
     @buffers[:string] = ast_node
   		end
-	when 27 then
+	when 29 then
 		begin
 
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 56 then
+	when 58 then
 		begin
 
   		end
-	when 53 then
+	when 55 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -17754,7 +18054,7 @@ begin
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 28 then
+	when 30 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -17768,7 +18068,36 @@ begin
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 12 then
+	when 13 then
+		begin
+
+    # $ all states; error_term
+
+    unless @incomplete.empty?
+      fx = @incomplete.delete(:function)
+      fx = identifier(utf8_string(fx))
+      # add a child function to the last term (creates a new term)
+      t = @buffers[:term_stack][-1] << function(fx)
+      @buffers[:term_stack][-1] = t
+    end
+
+    yield @buffers[:term_stack][-1]
+  		end
+		begin
+
+  		end
+	when 16 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
 		begin
 
     # $ all states; error_term
@@ -19372,48 +19701,48 @@ class << self
 	private :_bel_trans_actions, :_bel_trans_actions=
 end
 self._bel_trans_actions = [
-	1, 0, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 13, 14, 14, 14, 0, 
-	0, 9, 9, 0, 0, 15, 16, 15, 
-	15, 4, 17, 0, 18, 0, 19, 20, 
-	21, 0, 22, 0, 23, 0, 0, 24, 
-	25, 26, 0, 7, 0, 0, 0, 9, 
-	29, 9, 0, 30, 0, 9, 9, 0, 
-	0, 0, 0, 0, 0, 7, 7, 9, 
-	10, 9, 0, 11, 0, 31, 9, 9, 
-	0, 0, 32, 0, 0, 17, 33, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 34, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 35, 15, 4, 17, 36, 
-	0, 37, 2, 3, 4, 0, 5, 0, 
-	0, 0, 0, 6, 7, 9, 10, 9, 
-	0, 11, 0, 14, 14, 14, 0, 0, 
-	9, 9, 0, 0, 15, 16, 15, 15, 
-	4, 17, 0, 38, 0, 19, 39, 21, 
-	40, 0, 0, 24, 25, 41, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	42, 0, 19, 43, 21, 0, 37, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 14, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 15, 15, 4, 17, 0, 
-	44, 45, 44, 0, 46, 0, 0, 24, 
-	25, 47, 0, 0, 48, 2, 3, 4, 
-	0, 5, 0, 0, 0, 0, 6, 7, 
-	9, 10, 9, 0, 11, 0, 14, 14, 
-	14, 0, 0, 9, 9, 0, 0, 15, 
-	16, 15, 15, 4, 17, 0, 18, 0, 
-	19, 20, 21, 0, 22, 37, 49, 2, 
-	3, 4, 0, 5, 0, 0, 0, 0, 
-	6, 7, 9, 10, 9, 0, 11, 0, 
-	14, 50, 14, 0, 0, 9, 9, 0, 
-	0, 15, 16, 51, 15, 4, 17, 52, 
-	0, 0, 54, 0
+	2, 0, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 14, 15, 15, 15, 0, 
+	0, 10, 10, 0, 0, 17, 18, 17, 
+	17, 5, 19, 0, 20, 0, 21, 22, 
+	23, 0, 24, 0, 25, 0, 0, 26, 
+	27, 28, 0, 8, 0, 0, 0, 10, 
+	31, 10, 0, 32, 0, 10, 10, 0, 
+	0, 0, 0, 0, 0, 8, 8, 10, 
+	11, 10, 0, 12, 0, 33, 10, 10, 
+	0, 0, 34, 0, 0, 19, 35, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 36, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 37, 17, 5, 19, 38, 
+	0, 39, 3, 4, 5, 0, 6, 0, 
+	0, 0, 0, 7, 8, 10, 11, 10, 
+	0, 12, 0, 15, 15, 15, 0, 0, 
+	10, 10, 0, 0, 17, 18, 17, 17, 
+	5, 19, 0, 40, 0, 21, 41, 23, 
+	42, 0, 0, 26, 27, 43, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	44, 0, 21, 45, 23, 0, 39, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 15, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 17, 17, 5, 19, 0, 
+	46, 47, 46, 0, 48, 0, 0, 26, 
+	27, 49, 0, 0, 50, 3, 4, 5, 
+	0, 6, 0, 0, 0, 0, 7, 8, 
+	10, 11, 10, 0, 12, 0, 15, 15, 
+	15, 0, 0, 10, 10, 0, 0, 17, 
+	18, 17, 17, 5, 19, 0, 20, 0, 
+	21, 22, 23, 0, 24, 39, 51, 3, 
+	4, 5, 0, 6, 0, 0, 0, 0, 
+	7, 8, 10, 11, 10, 0, 12, 0, 
+	15, 52, 15, 0, 0, 10, 10, 0, 
+	0, 17, 18, 53, 17, 5, 19, 54, 
+	0, 0, 56, 0
 ]
 
 class << self
@@ -19421,30 +19750,30 @@ class << self
 	private :_bel_eof_actions, :_bel_eof_actions=
 end
 self._bel_eof_actions = [
-	0, 0, 0, 0, 0, 0, 0, 8, 
-	8, 12, 0, 0, 8, 8, 8, 12, 
-	12, 12, 0, 0, 0, 0, 0, 0, 
-	0, 0, 8, 12, 0, 27, 28, 28, 
-	28, 28, 28, 28, 0, 0, 0, 8, 
-	8, 0, 8, 8, 8, 8, 0, 0, 
-	0, 0, 0, 0, 0, 0, 8, 8, 
-	12, 0, 0, 8, 8, 8, 12, 12, 
-	8, 12, 0, 0, 0, 0, 0, 0, 
-	8, 8, 12, 0, 0, 8, 8, 8, 
-	12, 12, 12, 8, 12, 0, 0, 0, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 12, 0, 0, 0, 0, 
-	0, 0, 0, 0, 8, 8, 12, 0, 
-	0, 8, 8, 8, 12, 12, 12, 0, 
-	0, 0, 0, 8, 12, 8, 12, 0, 
-	0, 0, 0, 0, 0, 8, 8, 12, 
-	0, 0, 8, 8, 8, 12, 12, 12, 
-	0, 0, 0, 0, 0, 0, 0, 0, 
-	0, 8, 8, 12, 0, 0, 8, 8, 
-	8, 12, 12, 8, 12, 8, 12, 0, 
-	53, 55, 0, 0, 56, 56, 0, 0, 
-	0, 0, 56
+	0, 1, 1, 0, 1, 1, 0, 9, 
+	9, 13, 0, 1, 9, 9, 9, 16, 
+	13, 13, 0, 0, 0, 0, 0, 0, 
+	0, 0, 9, 16, 0, 29, 30, 30, 
+	30, 30, 30, 30, 1, 1, 0, 9, 
+	9, 0, 9, 9, 9, 9, 1, 1, 
+	1, 1, 0, 1, 1, 0, 9, 9, 
+	13, 0, 1, 9, 9, 9, 16, 13, 
+	9, 16, 1, 1, 0, 1, 1, 0, 
+	9, 9, 13, 0, 1, 9, 9, 9, 
+	16, 13, 13, 9, 16, 0, 0, 0, 
+	0, 0, 0, 1, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 13, 0, 0, 1, 1, 
+	0, 1, 1, 0, 9, 9, 13, 0, 
+	1, 9, 9, 9, 16, 13, 13, 0, 
+	0, 0, 0, 9, 16, 9, 16, 1, 
+	1, 0, 1, 1, 0, 9, 9, 13, 
+	0, 1, 9, 9, 9, 16, 13, 13, 
+	0, 0, 1, 0, 1, 0, 1, 1, 
+	0, 9, 9, 13, 0, 1, 9, 9, 
+	9, 16, 13, 9, 16, 9, 16, 0, 
+	55, 57, 0, 0, 58, 58, 0, 0, 
+	0, 0, 58
 ]
 
 class << self
@@ -19561,13 +19890,14 @@ begin
 	cs = _bel_trans_targs[_trans]
 	if _bel_trans_actions[_trans] != 0
 	case _bel_trans_actions[_trans]
-	when 7 then
+	when 8 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
-	when 54 then
+	when 56 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -19577,25 +19907,25 @@ begin
     ast_node = identifier(utf8_string(chars), complete: completed)
     @buffers[:ident] = ast_node
   		end
-	when 9 then
+	when 10 then
 		begin
 
     $stderr.puts 'STRING start_string'
     @string_opened = true
     p_start = p
   		end
-	when 4 then
+	when 5 then
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 5 then
+	when 6 then
 		begin
 
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 36 then
+	when 38 then
 		begin
 
     inner_term = @buffers[:term_stack].pop
@@ -19608,12 +19938,12 @@ begin
 	end
 
   		end
-	when 38 then
+	when 40 then
 		begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 13 then
+	when 14 then
 		begin
 
     # $ all states; error_term
@@ -19628,42 +19958,42 @@ begin
 
     yield @buffers[:term_stack][-1]
   		end
-	when 21 then
+	when 23 then
 		begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 43 then
+	when 45 then
 		begin
 
     @buffers[:relationship] = relationship(
                                 utf8_string(@buffers[:relationship]))
   		end
-	when 25 then
+	when 27 then
 		begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 40 then
+	when 42 then
 		begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 42 then
+	when 44 then
 		begin
 
     @buffers[:subject]    = subject(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 44 then
+	when 46 then
 		begin
 
     @buffers[:object]     = object(
                               @buffers[:term_stack][-1])
     @buffers[:term_stack] = nil
   		end
-	when 46 then
+	when 48 then
 		begin
 
     @buffers[:comment] ||= comment(nil)
@@ -19674,7 +20004,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 22 then
+	when 24 then
 		begin
 
     	begin
@@ -19686,7 +20016,7 @@ begin
 	end
 
   		end
-	when 49 then
+	when 51 then
 		begin
 
     inner_statement = @buffers[:statement_stack].pop
@@ -19700,12 +20030,12 @@ begin
 	end
 
   		end
-	when 23 then
+	when 25 then
 		begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 17 then
+	when 19 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -19719,7 +20049,7 @@ begin
 
     @buffers[:parameter] = parameter(prefix(@buffers[:ident]))
   		end
-	when 2 then
+	when 3 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -19734,7 +20064,7 @@ begin
     fx = @incomplete.delete(:function)
     @buffers[:function] = identifier(utf8_string(fx))
   		end
-	when 16 then
+	when 18 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -19756,7 +20086,7 @@ begin
 	end
 
   		end
-	when 11 then
+	when 12 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -19771,7 +20101,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 31 then
+	when 33 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -19781,7 +20111,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 14 then
+	when 15 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -19795,7 +20125,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 19 then
+	when 21 then
 		begin
 
     @buffers[:relationship] = []
@@ -19804,7 +20134,7 @@ begin
 
     @buffers[:relationship] << data[p].ord
   		end
-	when 39 then
+	when 41 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -19814,7 +20144,7 @@ begin
 
     yield @buffers[:relationship]
   		end
-	when 20 then
+	when 22 then
 		begin
 
     @buffers[:relationship] = relationship(
@@ -19824,7 +20154,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:relationship]
   		end
-	when 24 then
+	when 26 then
 		begin
 
     @buffers[:comment] = []
@@ -19833,7 +20163,7 @@ begin
 
     @buffers[:comment] << data[p].ord
   		end
-	when 41 then
+	when 43 then
 		begin
 
     @buffers[:comment] = comment(
@@ -19843,7 +20173,7 @@ begin
 
     yield @buffers[:comment] || comment(nil)
   		end
-	when 47 then
+	when 49 then
 		begin
 
     @buffers[:comment] = comment(
@@ -19859,7 +20189,7 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 26 then
+	when 28 then
 		begin
 
     @buffers[:comment] = comment(
@@ -19869,7 +20199,7 @@ begin
 
     yield nested_statement(@buffers[:statement_stack][-1])
   		end
-	when 18 then
+	when 20 then
 		begin
 
     @buffers[:subject]    = subject(
@@ -19880,7 +20210,7 @@ begin
 
     @buffers[:statement_stack][-1] = @buffers[:statement_stack][-1] << @buffers[:subject]
   		end
-	when 45 then
+	when 47 then
 		begin
 
     @buffers[:object]     = object(
@@ -19897,10 +20227,11 @@ begin
               @buffers[:object],
               @buffers[:comment]))
   		end
-	when 6 then
+	when 7 then
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
@@ -19911,7 +20242,7 @@ begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 32 then
+	when 34 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -19930,7 +20261,7 @@ begin
 
     yield @buffers[:parameter]
   		end
-	when 15 then
+	when 17 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -19953,7 +20284,7 @@ begin
     @buffers[:term_stack][-1] = t
     @buffers[:parameter]      = nil
   		end
-	when 3 then
+	when 4 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -19973,7 +20304,7 @@ begin
     fx                        = @buffers[:function]
     @buffers[:term_stack][-1] = @buffers[:term_stack][-1] << function(fx)
   		end
-	when 10 then
+	when 11 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -19994,7 +20325,7 @@ begin
     ast_node = string(utf8_string(chars), complete: true)
     @buffers[:string] = ast_node
   		end
-	when 30 then
+	when 32 then
 		begin
 
     $stderr.puts 'STRING stop_string'
@@ -20014,7 +20345,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 34 then
+	when 36 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -20040,7 +20371,7 @@ begin
 	end
 
   		end
-	when 52 then
+	when 54 then
 		begin
 
     @buffers[:object]     = object(
@@ -20064,7 +20395,7 @@ begin
 	end
 
   		end
-	when 35 then
+	when 37 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -20099,7 +20430,7 @@ begin
 	end
 
   		end
-	when 29 then
+	when 31 then
 		begin
 
     $stderr.puts 'STRING start_string'
@@ -20125,7 +20456,7 @@ begin
     $stderr.puts 'STRING yield_string'
     yield @buffers[:string]
   		end
-	when 37 then
+	when 39 then
 		begin
 
     t = term(complete: false)
@@ -20138,13 +20469,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 33 then
+	when 35 then
 		begin
 
     t = term(complete: false)
@@ -20157,13 +20489,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 50 then
+	when 52 then
 		begin
 
     @buffers[:parameter] ||= parameter(prefix(nil))
@@ -20200,7 +20533,7 @@ begin
 	end
 
   		end
-	when 1 then
+	when 2 then
 		begin
 
     @buffers[:statement_stack] = [ statement() ]
@@ -20217,13 +20550,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 48 then
+	when 50 then
 		begin
 
     @buffers[:statement_stack] << statement()
@@ -20240,13 +20574,14 @@ begin
 		begin
 
     $stderr.puts 'IDENTIFIER start_identifier'
+    @identifier_started = true
     p_start = p;
   		end
 		begin
 
     @incomplete[:function] << data[p].ord
   		end
-	when 51 then
+	when 53 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -20309,13 +20644,25 @@ begin
 	if _goto_level <= _test_eof
 	if p == eof
 	  case _bel_eof_actions[cs]
-	when 55 then
+	when 57 then
 		begin
 
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 8 then
+	when 1 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
+	when 9 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -20324,17 +20671,17 @@ begin
     ast_node = string(utf8_string(chars), complete: false)
     @buffers[:string] = ast_node
   		end
-	when 27 then
+	when 29 then
 		begin
 
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 56 then
+	when 58 then
 		begin
 
   		end
-	when 53 then
+	when 55 then
 		begin
 
     $stderr.puts 'IDENTIFIER end_identifier'
@@ -20349,7 +20696,7 @@ begin
     $stderr.puts 'IDENTIFIER yield_identifier'
     yield @buffers[:ident]
   		end
-	when 28 then
+	when 30 then
 		begin
 
     $stderr.puts 'STRING eof_string'
@@ -20363,7 +20710,36 @@ begin
     $stderr.puts 'STRING eof_main; yielding'
     yield @buffers[:string]
   		end
-	when 12 then
+	when 13 then
+		begin
+
+    # $ all states; error_term
+
+    unless @incomplete.empty?
+      fx = @incomplete.delete(:function)
+      fx = identifier(utf8_string(fx))
+      # add a child function to the last term (creates a new term)
+      t = @buffers[:term_stack][-1] << function(fx)
+      @buffers[:term_stack][-1] = t
+    end
+
+    yield @buffers[:term_stack][-1]
+  		end
+		begin
+
+  		end
+	when 16 then
+		begin
+
+    $stderr.puts 'IDENTIFIER an_ident_eof'
+    if @identifier_started
+      p_end = p
+      chars = data[p_start...p_end]
+      completed = !chars.empty?
+      ast_node = identifier(utf8_string(chars), complete: completed)
+      @buffers[:ident] = ast_node
+    end
+  		end
 		begin
 
     # $ all states; error_term
